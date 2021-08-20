@@ -1,19 +1,28 @@
+
+
 body {
-	background: #3399ff;
-	font-family: 'Oswald', 'Futura', sans-serif;
+	font-family: cursive;
+	background: linear-gradient( 140deg , #EADEDB 0%, #BC70A4 50%, #BFD641 75%)
 }
 #wrapper {
 	margin-top: 10% !important;
 }
 #content {
-	background:#ffff99;
+	background: wheat;
 	padding: 25px;
 }
 #content > h2 {
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;
 	padding-top: 0;
+	
 }
+
+#content > h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: solid black;
+}
+
 .t10 {
 	margin-top: 10px;
 }
@@ -22,13 +31,47 @@ body {
 }
 .todo-completed {
 	text-decoration: line-through;
-	background: rgba(149, 165, 166, .3);
+	color:red;
+	background: skyblue;
 }
+
+
 footer {
-	margin-top: 20px;
-	color: white;
+	margin-top:44.5vh;
+	color: black;
 }
+
+h5{
+	margin-top: -15%;
+	font-weight: bolder;
+}
+
 #add-btn {
-	background-color:green;
-	border-color:green;
+	background-color: blueviolet;
+	border-color: red;
+}
+
+#add-btn:hover{
+	background-color: crimson;
+	border-color: darkgrey;
+	font-family: monospace;
+}
+
+.btn-warning{
+	background-color: royalblue;
+}
+
+.btn-warning:hover{
+	background-color: indianred;
+	border-color: darkred;
+	font-family: monospace;
+}
+
+.btn-danger{
+	background-color: crimson;
+}
+
+.btn-danger:hover{
+	background-color: gray;
+	font-family: monospace;
 }
