@@ -2,13 +2,13 @@
 
 body {
 	font-family: cursive;
-	background: linear-gradient( 140deg , #EADEDB 0%, #BC70A4 50%, #BFD641 75%)
+	background: #3399ff;
 }
 #wrapper {
 	margin-top: 10% !important;
 }
 #content {
-	background: wheat;
+	background: #ffff99;
 	padding: 25px;
 }
 #content > h2 {
@@ -32,7 +32,7 @@ body {
 .todo-completed {
 	text-decoration: line-through;
 	color:red;
-	background: skyblue;
+	background: burlywood;
 }
 
 
@@ -52,7 +52,7 @@ h5{
 }
 
 #add-btn:hover{
-	background-color: crimson;
+	background-color: indianred;
 	border-color: darkgrey;
 	font-family: monospace;
 }
@@ -72,6 +72,6 @@ h5{
 }
 
 .btn-danger:hover{
-	background-color: gray;
+	background-color: indianred;
 	font-family: monospace;
 }
